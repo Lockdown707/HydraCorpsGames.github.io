@@ -232,6 +232,11 @@ footer p a {
     padding: 5%;
 }
 
+/* Style rules for the grid layout in the main content area */
+.grid {
+    margin-top: 100px; /* Adjust this value to increase or decrease the space */
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
     
