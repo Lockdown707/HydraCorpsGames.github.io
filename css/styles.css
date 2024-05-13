@@ -142,7 +142,10 @@ article:nth-of-type(2) {
     color: #214D40; /* Green */
     font-weight: bold;
     text-shadow: 5px 5px 8px #C0C0C0; /* Silver */
+    display: inline;
+    font-weight: bold;
 }
+
 
 .frame {
     position: relative;
@@ -175,7 +178,7 @@ article:nth-of-type(2) {
 
 #form {
     margin-top: 2%;
-    background-color: #F2F2F2;
+    background-color: #214D40;
     padding: 2%;
 }
 
