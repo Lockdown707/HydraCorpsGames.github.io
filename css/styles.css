@@ -178,21 +178,25 @@ article:nth-of-type(2) {
 
 #form {
     margin-top: 2%;
-    background-color: #214D40;
+    background-color: #3e8872;
+    
     padding: 2%;
 }
 
 #form h2 {
     text-align: center;
+    
 }
 
 fieldset, input, select, textarea {
     margin-bottom: 2%;
+    
 }
 
 fieldset legend {
     font-weight: bold;
     font-size: 1.25em;
+    
 }
 
 label {
