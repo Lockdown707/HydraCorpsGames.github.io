@@ -59,6 +59,11 @@
     -->
 		<!-- Use the main area to add the main content of the webpage -->
 		<main id="content">
+
+            <main id="content">
+                <div id="hero" class="tablet-desktop">
+                    <img src="images/SmallHydraCorpsBanner.jpg" alt="SmallHydraCorpsBanner">
+                </div>
             
             <style>
                 .content-block {
@@ -96,9 +101,22 @@
                     display: inline-block;
                     margin-right: 10px;
                 }
+
+                #hero {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 25vh; /* Adjust this to the desired height of the hero section */
+                }
+
+                #hero img {
+                    max-width: 110%;
+                    height: auto;
+                }
             </style>
             
             <div class="mobile">
+                
                 <p><span class="action">Hydra Corps Game Development Team</span></p>
             
                 <div class="content-block">
