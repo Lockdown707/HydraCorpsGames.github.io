@@ -178,6 +178,72 @@ article:nth-of-type(2) {
     height: 50%;
 }
 
+.content-block {
+    text-align: center;
+}
+
+.content-block img {
+    display: block;
+    margin: 0 auto;
+}
+
+.action {
+    text-align: center;
+    display: block;
+    font-size: 2em; /* Adjusted font size for titles */
+    color: #214D40; /* Green */
+    font-weight: bold;
+    text-shadow: 5px 5px 8px #C0C0C0; /* Silver */
+}
+
+p, h4, ul.hours {
+    text-align: center; /* Center all text and titles */
+}
+
+.mobile, .tablet-desktop {
+    text-align: center;
+}
+
+.hours {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hours li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28vh; /* Adjust this to the desired height of the hero section */
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+#hero-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh; /* Adjust this to the desired height of the hero section*/
+}
+
+#hero-a img {
+    max-width: 95%;
+    height: auto;
+}
+
+
+.map {
+    display: block;
+    margin: 0 auto;
+}
+
 #form {
     margin-top: 2%;
     background-color: #3e8872;
@@ -358,6 +424,73 @@ footer p a {
         width: 600px;
         height: 450px;
     }
+    .content-block {
+        text-align: center;
+    }
+    
+    .content-block img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .action {
+        text-align: center;
+        display: block;
+        font-size: 2em; /* Adjusted font size for titles */
+        color: #214D40; /* Green */
+        font-weight: bold;
+        text-shadow: 5px 5px 8px #C0C0C0; /* Silver */
+    }
+    
+    p, h4, ul.hours {
+        text-align: center; /* Center all text and titles */
+    }
+    
+    .mobile, .tablet-desktop {
+        text-align: center;
+    }
+    
+    .hours {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .hours li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh; /* Adjust this to the desired height of the hero section */
+    }
+    
+    #hero img {
+        max-width: 82%;
+        height: auto;
+    }
+    
+    #hero-a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13vh; /* Adjust this to the desired height of the hero section*/
+    }
+    
+    #hero-a img {
+        max-width: 110%;
+        height: auto;
+    }
+    
+    
+    .map {
+        display: block;
+        margin: 0 auto;
+    }
+
+    
 
     /* Tablet Viewport: Style rules for table */
     table {
@@ -513,6 +646,71 @@ footer p a {
     .btn {
         grid-column: 1 / span 3;
     }
+
+    .content-block {
+        text-align: center;
+    }
+
+    .content-block img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .action {
+        text-align: center;
+        display: block;
+        font-size: 2em; /* Adjusted font size for titles */
+        color: #214D40; /* Green */
+        font-weight: bold;
+        text-shadow: 5px 5px 8px #C0C0C0; /* Silver */
+    }
+
+    p, h4, ul.hours {
+        text-align: center; /* Center all text and titles */
+    }
+
+    .mobile, .tablet-desktop {
+        text-align: center;
+    }
+
+    .hours {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .hours li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh; /* Adjust this to the desired height of the hero section */
+    }
+
+    #hero-a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh; /* Adjust this to the desired height of the hero section*/
+    }
+
+    #hero-a img {
+        max-width: 110%;
+        height: auto;
+    }
+
+    #hero img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .map {
+        display: block;
+        margin: 0 auto;
+    }
     
 }
 
@@ -526,6 +724,71 @@ footer p a {
 
     table {
         width: 80%;
+    }
+
+    .content-block {
+        text-align: center;
+    }
+
+    .content-block img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .action {
+        text-align: center;
+        display: block;
+        font-size: 2em; /* Adjusted font size for titles */
+        color: #214D40; /* Green */
+        font-weight: bold;
+        text-shadow: 5px 5px 8px #C0C0C0; /* Silver */
+    }
+
+    p, h4, ul.hours {
+        text-align: center; /* Center all text and titles */
+    }
+
+    .mobile, .tablet-desktop {
+        text-align: center;
+    }
+
+    .hours {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .hours li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust this to the desired height of the hero section */
+    }
+
+    #hero-a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh; /* Adjust this to the desired height of the hero section*/
+    }
+
+    #hero-a img {
+        max-width: 110%;
+        height: auto;
+    }
+
+    #hero img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .map {
+        display: block;
+        margin: 0 auto;
     }
     
 }
