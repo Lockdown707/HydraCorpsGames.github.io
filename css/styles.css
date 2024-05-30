@@ -687,7 +687,7 @@ footer p a {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 95vh; /* Adjust this to the desired height of the hero section */
+        height: 98vh; /* Adjust this to the desired height of the hero section */
     }
 
     #hero-a {
@@ -703,7 +703,7 @@ footer p a {
     }
 
     #hero img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 
@@ -782,7 +782,7 @@ footer p a {
     }
 
     #hero img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 
