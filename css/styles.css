@@ -687,7 +687,7 @@ footer p a {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh; /* Adjust this to the desired height of the hero section */
+        height: 90vh; /* Adjust this to the desired height of the hero section */
     }
 
     #hero img {
