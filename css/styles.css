@@ -691,7 +691,7 @@ footer p a {
     }
 
     #hero img {
-        max-width: 90%;
+        max-width: 75%;
         height: auto;
     }
 
@@ -771,7 +771,7 @@ footer p a {
         height: 100vh; /* Adjust this to the desired height of the hero section 
     }
     #hero img {
-        max-width: 80%;
+        max-width: 90%;
         height: auto;
     }*/
 
