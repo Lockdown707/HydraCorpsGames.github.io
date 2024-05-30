@@ -687,8 +687,14 @@ footer p a {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 98vh; /* Adjust this to the desired height of the hero section */
+        height: 105vh; /* Adjust this to the desired height of the hero section */
     }
+
+    #hero img {
+        max-width: 80%;
+        height: auto;
+    }
+
 
     #hero-a {
         display: flex;
@@ -698,15 +704,11 @@ footer p a {
     }
 
     #hero-a img {
-        max-width: 110%;
+        max-width: 100%;
         height: auto;
     }
 
-    #hero img {
-        max-width: 90%;
-        height: auto;
-    }
-
+   
     .map {
         display: block;
         margin: 0 auto;
@@ -762,12 +764,17 @@ footer p a {
         margin-right: 10px;
     }
 
-    #hero {
+    /*#hero {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh; /* Adjust this to the desired height of the hero section */
+        height: 100vh; /* Adjust this to the desired height of the hero section 
     }
+    #hero img {
+        max-width: 80%;
+        height: auto;
+    }*/
+
 
     #hero-a {
         display: flex;
@@ -781,11 +788,7 @@ footer p a {
         height: auto;
     }
 
-    #hero img {
-        max-width: 90%;
-        height: auto;
-    }
-
+    
     .map {
         display: block;
         margin: 0 auto;
