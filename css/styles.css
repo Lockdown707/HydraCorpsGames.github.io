@@ -687,11 +687,11 @@ footer p a {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 105vh; /* Adjust this to the desired height of the hero section */
+        height: 80vh; /* Adjust this to the desired height of the hero section */
     }
 
     #hero img {
-        max-width: 80%;
+        max-width: 90%;
         height: auto;
     }
 
