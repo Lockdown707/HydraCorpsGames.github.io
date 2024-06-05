@@ -21,6 +21,12 @@ img, video {
     display: block;
 }
 
+/* Apply to all images */
+img {
+    border-radius: 15px; /* Adjust the value to change the roundness */
+}
+
+
 
 
 /* Style rule for box sizing applies to all elements */
